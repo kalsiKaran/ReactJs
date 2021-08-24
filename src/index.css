@@ -12,10 +12,16 @@ code {
     monospace;
 }
 
-.helo {
-  font-size: 5rem;
-  color: crimson;
-  font-family: cursive;
+.tweet {
+  background-color: white;
+  height: 10rem;
+  width: 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  padding: 2rem;
   text-align: center;
-  text-transform: uppercase;
 }
